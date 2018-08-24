@@ -9,6 +9,7 @@ module.exports = {
     },
     rules: {
         'no-unused-vars': [1, { vars: 'all', args: 'after-used' }],
+        'no-var': 1,
         // 这里填入你的项目需要的个性化配置，比如：
         //
         // // @fixable 一个缩进必须用两个空格替代
